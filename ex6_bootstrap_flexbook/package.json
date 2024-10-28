@@ -1,0 +1,24 @@
+{
+  "name": "flexbook",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@solidjs/router": "^0.14.10",
+    "bootstrap": "^5.3.3",
+    "solid-js": "^1.9.2"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.10",
+    "sass": "^1.80.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.9",
+    "vite-plugin-solid": "^2.10.2"
+  }
+}
